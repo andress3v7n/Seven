@@ -297,7 +297,7 @@ As a Bonus, provide the specific commands the user will need to run to download 
     tasks:
     
   - name: download metricbeat deb
-    command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.7.1-amd64.deb
+    command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.4.0-amd64.deb
     
   - name: install metricbeat deb
     command: sudo dpkg -i metricbeat-7.7.1-amd64.deb
